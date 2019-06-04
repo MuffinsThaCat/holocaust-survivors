@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "start": "nodemon ./bin/www"
+        "start": "nodemon start server.js"
     },
     "dependencies": {
         "cookie-parser": "~1.4.3",
@@ -11,6 +11,7 @@
         "debug": "~2.6.9",
         "express": "~4.16.0",
         "express-flash-messages": "^0.1.1",
+        "express-sessions": "^1.0.6",
         "express-validator": "^5.3.1",
         "g": "^2.0.1",
         "hbs": "~4.0.1",
